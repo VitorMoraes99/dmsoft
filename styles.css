@@ -31,12 +31,6 @@ body {
     padding: 1rem 0;
 }
 
-.logo {
-    display: flex;
-    align-items: center;
-    gap: 0.5rem;
-}
-
 .logo-icon {
     width: 150px;
     height: 50px;
@@ -543,11 +537,11 @@ body {
         grid-template-columns: 1fr;
     }
 
-    .logo-icon {
-        width: 40px;
-        height: 40px;
+   .logo-icon{
+        width: 100px;
+        height: 50px;
     }
-
+    
     .logo-text {
         font-size: 1.1rem;
     }
