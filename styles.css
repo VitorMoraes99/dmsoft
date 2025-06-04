@@ -38,8 +38,8 @@ body {
 }
 
 .logo-icon {
-    width: 45px;
-    height: 45px;
+    width: 150px;
+    height: 50px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -459,8 +459,8 @@ body {
 }
 
 .footer-logo .logo-icon {
-    width: 35px;
-    height: 35px;
+    width: 200px;
+    height: 50px;
 }
 
 .footer-logo .logo-icon img {
@@ -561,8 +561,8 @@ body {
     }
 
     .logo-icon {
-        width: 35px;
-        height: 35px;
+        width: 100px;
+        height: 40px;
     }
 
     .logo-text {
