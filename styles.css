@@ -415,6 +415,12 @@ body {
     margin-bottom: 1rem;
 }
 
+.contact-card a {
+    color: #003366;
+    text-decoration: none;  
+}
+
+
 .contact-card h3 {
     font-weight: 600;
     margin-bottom: 0.5rem;
