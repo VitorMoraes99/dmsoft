@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DMsoft - Tecnologia que transforma</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+</head>
+
+<body>
+    <!-- Header -->
+    <header class="header">
+        <div class="container">
+            <div class="nav-wrapper">
+                <!-- Logo -->
+                <div class="logo">
+                    <div class="logo-icon">
+                        <span>DM</span>
+                    </div>
+                    <span class="logo-text">DMsoft</span>
+                </div>
+
+                <!-- Navigation -->
+                <nav class="nav-desktop">
+                    <a href="#quem-somos">Quem Somos</a>
+                    <a href="#o-que-fazemos">O que fazemos</a>
+                    <a href="#missao">Missão</a>
+                    <a href="#contato" class="btn-contact">Contato</a>
+                </nav>
+
+                <!-- Mobile menu button -->
+                <button class="mobile-menu-btn" onclick="toggleMobileMenu()">
+                    <i class="fas fa-bars"></i>
+                </button>
+            </div>
+
+            <!-- Mobile Navigation -->
+            <nav class="nav-mobile" id="mobileNav">
+                <a href="#quem-somos" onclick="closeMobileMenu()">Quem Somos</a>
+                <a href="#o-que-fazemos" onclick="closeMobileMenu()">O que fazemos</a>
+                <a href="#missao" onclick="closeMobileMenu()">Missão</a>
+                <a href="#contato" class="btn-contact" onclick="closeMobileMenu()">Contato</a>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-bg">
+            <!-- Substitua por sua imagem de fundo -->
+            <img src="https://via.placeholder.com/1200x600/003366/ffffff?text=Tecnologia+e+Inovacao"
+                alt="Tecnologia e inovação">
+        </div>
+        <div class="container">
+            <h1>Tecnologia que <span class="highlight">transforma</span></h1>
+            <p>Simplificamos processos e entregamos soluções que transformam negócios com inovação, confiança e
+                segurança.</p>
+            <button class="btn-primary">Conheça nossas soluções</button>
+        </div>
+    </section>
+
+    <!-- Quem Somos -->
+    <section id="quem-somos" class="section">
+        <div class="container">
+            <div class="grid-2">
+                <div class="content">
+                    <h2>QUEM SOMOS</h2>
+                    <div class="text-content">
+                        <p>Nós somos a DMsoft. Uma marca que combina inovação técnica com simplicidade e confiança. Uma
+                            marca que entrega não apenas software, mas tranquilidade.</p>
+                        <p>Acreditamos que a verdadeira inovação não é apenas sobre tecnologia. É sobre pessoas. É sobre
+                            entender as necessidades únicas de cada empresa, cada equipe, cada líder.</p>
+                        <p>Nós somos simplificadores. Onde outros veem obstáculos, nós vemos possibilidades. Onde outros
+                            desistem, nós perseveramos.</p>
+                    </div>
+                </div>
+                <div class="image-container">
+                    <div class="image-wrapper">
+                        <!-- Substitua por sua imagem -->
+                        <img src="https://via.placeholder.com/400x400/0077FF/ffffff?text=Equipe+Desenvolvimento"
+                            alt="Equipe de desenvolvimento trabalhando">
+                        <div class="image-overlay">
+                            <div class="logo-overlay">
+                                <span>DM</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- O que fazemos -->
+    <section id="o-que-fazemos" class="section bg-gray">
+        <div class="container">
+            <div class="grid-2">
+                <div class="image-container order-2">
+                    <div class="image-wrapper">
+                        <!-- Substitua por sua imagem -->
+                        <img src="https://via.placeholder.com/500x350/0077FF/ffffff?text=Desenvolvimento+Software"
+                            alt="Desenvolvimento de software">
+                        <div class="image-overlay-dark">
+                            <div class="overlay-content">
+                                <i class="fas fa-code"></i>
+                                <h3>Soluções Tecnológicas</h3>
+                                <p>Desenvolvemos sistemas que otimizam processos e impulsionam a inovação</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="content order-1">
+                    <h2>O QUE FAZEMOS</h2>
+                    <div class="text-content">
+                        <p>Na DMsoft, nós transformamos tecnologia em soluções reais. Criamos sistemas que otimizam
+                            processos, aumentam a agilidade e impulsionam a inovação.</p>
+                        <p>Mais do que software, entregamos confiança, parceria e resultados reais. Trabalhamos lado a
+                            lado com nossos clientes para entender e atender suas necessidades únicas.</p>
+                        <p>Simplificamos o presente para transformar o futuro dos negócios, porque sabemos que por trás
+                            de cada linha de código, há um negócio que depende de nós.</p>
+                    </div>
+
+                    <!-- Tecnologias -->
+                    <div class="tech-grid">
+                        <div class="tech-item">
+                            <i class="fas fa-database"></i>
+                            <span>Banco de Dados</span>
+                        </div>
+                        <div class="tech-item">
+                            <i class="fas fa-globe"></i>
+                            <span>Web Apps</span>
+                        </div>
+                        <div class="tech-item">
+                            <i class="fas fa-microchip"></i>
+                            <span>Sistemas</span>
+                        </div>
+                        <div class="tech-item">
+                            <i class="fas fa-desktop"></i>
+                            <span>Desktop</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Missão -->
+    <section id="missao" class="section">
+        <div class="container">
+            <div class="grid-2">
+                <div class="content">
+                    <h2>MISSÃO</h2>
+                    <div class="mission-card">
+                        <p>Capacitar empresas por meio de soluções tecnológicas simples, confiáveis e inovadoras,
+                            transformando desafios em oportunidades e promovendo crescimento com agilidade e segurança.
+                        </p>
+                    </div>
+                </div>
+                <div class="image-container">
+                    <div class="image-wrapper">
+                        <!-- Substitua por sua imagem -->
+                        <img src="https://via.placeholder.com/400x300/0077FF/ffffff?text=Missao+Empresarial"
+                            alt="Missão empresarial">
+                        <div class="image-overlay-dark">
+                            <i class="fas fa-bullseye"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Valores -->
+    <section class="section bg-gray">
+        <div class="container">
+            <h2 class="section-title">VALORES</h2>
+            <div class="values-grid">
+                <div class="value-card">
+                    <i class="fas fa-users"></i>
+                    <h3>Inovação com propósito</h3>
+                    <p>Criamos tecnologia que faz a diferença</p>
+                </div>
+                <div class="value-card">
+                    <i class="fas fa-heart"></i>
+                    <h3>Parceria verdadeira</h3>
+                    <p>Trabalhamos lado a lado com nossos clientes</p>
+                </div>
+                <div class="value-card">
+                    <i class="fas fa-code"></i>
+                    <h3>Soluções descomplicadas</h3>
+                    <p>Para problemas reais</p>
+                </div>
+                <div class="value-card">
+                    <i class="fas fa-bullseye"></i>
+                    <h3>Compromisso com resultados</h3>
+                    <p>Entregamos valor, não apenas sistemas</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contato -->
+    <section id="contato" class="section contact-section">
+        <div class="contact-bg">
+            <!-- Substitua por sua imagem de fundo -->
+            <img src="https://via.placeholder.com/1200x400/003366/ffffff?text=Contato+Comunicacao" alt="Contato">
+        </div>
+        <div class="container">
+            <h2 class="section-title">CONTATO</h2>
+            <div class="contact-grid">
+                <div class="contact-card">
+                    <i class="fas fa-map-marker-alt"></i>
+                    <h3>Endereço</h3>
+                    <p>
+                        Rua Antônio José<br>
+                        Castronovo, 381<br>
+                        Sorocaba - São Paulo<br>
+                        Brasil
+                    </p>
+                </div>
+                <div class="contact-card">
+                    <i class="fas fa-phone"></i>
+                    <h3>WhatsApp</h3>
+                    <p>15 99624-4138</p>
+                    <a href="https://wa.me/5515996244138" target="_blank" class="btn-secondary">
+                        Conversar no WhatsApp
+                    </a>
+                </div>
+                <div class="contact-card">
+                    <i class="fas fa-envelope"></i>
+                    <h3>E-mail</h3>
+                    <p>suporte@dmsoft.com.br</p>
+                    <a href="mailto:suporte@dmsoft.com.br" class="btn-secondary">
+                        Enviar e-mail
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <div class="logo-icon">
+                        <span>DM</span>
+                    </div>
+                    <span class="logo-text">DMsoft</span>
+                </div>
+                <p class="footer-description">
+                    Tecnologia que simplifica processos, entregando soluções que transformam negócios.
+                </p>
+                <p class="footer-copyright">
+                    © <span id="currentYear"></span> DMsoft. Todos os direitos reservados.
+                </p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
